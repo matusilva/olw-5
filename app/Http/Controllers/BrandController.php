@@ -6,7 +6,6 @@ use App\Http\Requests\BrandStoreRequest;
 use App\Http\Requests\BrandUpdateRequest;
 use App\Models\Brand;
 use App\Services\BrandServices;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 class BrandController extends Controller
